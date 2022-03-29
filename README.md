@@ -44,7 +44,7 @@ Logging Interceptor | Is a Java library that provides a logging interceptor for 
 ### How to run?
 
 1. Clone the backend repository
-2. In root directory run `docker build -t zemoga-challenge .`
+2. In root directory run `docker build -t zemoga-backend .`
 3. Run `docker run -dp 8080:8080 -e DB_HOST=host -e DB_PORT=3306 -e DB_NAME=schem -e DB_USER=user -e DB_PASSWORD=password -e TOKEN=Bearer\ AAAAAAAAAAAAAAAAAAAAAPNkCAEAAAAAmcfv%2BXE59uvAZ6pzjUv%2Fu68sBHI%3DpujwAAAwLsqbNQivymaOn0NveuOmKcRItDb5TUpn8fXY3iUMs6 zemoga-backend`
 
 Notes: 

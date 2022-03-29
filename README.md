@@ -53,6 +53,10 @@ Notes:
 - For DB_NAME variable use schema public. I have not used the one provided by you since I have considered that it was dirty and would cause an impact on development.
 - For TOKEN variable use: Bearer\ AAAAAAAAAAAAAAAAAAAAAPNkCAEAAAAAmcfv%2BXE59uvAZ6pzjUv%2Fu68sBHI%3DpujwAAAwLsqbNQivymaOn0NveuOmKcRItDb5TUpn8fXY3iUMs6 or get token with zemoga credentials with the endpoint https://api.twitter.com/oauth2/token?grant_type=client_credentials
 
+### Run tests
+
+- `mvn test` in root directory
+
 ### Contributors
 
 - Alex Pinaida
